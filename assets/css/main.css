@@ -1816,6 +1816,13 @@ input, select, textarea {
 			padding: 0;
 		}
 
+	/*Spacing*/
+	@media screen and (min-width:540px) {
+		.spacing{
+			white-space:pre;
+		}
+	}
+
 /* Button */
 
 	input[type="submit"],
@@ -2805,7 +2812,7 @@ input, select, textarea {
 		position: relative;
 		justify-content: center;
 		padding: 30px 70px;
-		width: 25%;
+		width: 30%;
 	}
 	.member .image{
 		display: inline-block;
@@ -2856,6 +2863,7 @@ input, select, textarea {
 	}
 	.member .content{
 		margin-bottom: 30px;
+		width: 100%;
 	}
 	.member .title{
 		font-size: 20px;
@@ -2893,14 +2901,26 @@ input, select, textarea {
 		color: blue;
 		background: white;
 	}
-	@media (max-width: 720px)
+
+	@media screen and (max-width:980px)
+	{
+		.container {
+			justify-content: center;
+		}
+		.member {
+			width: 50%;
+			margin-top: 30px;
+		}
+	}
+
+	@media screen and (max-width: 730px)
 	{
 		.container {
 			flex-direction: column;
 			justify-content: center;
 		}
 		.member {
-			width: 50%;
+			width: 100%;
 			margin-top: 30px;
 		}
 	}
