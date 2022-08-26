@@ -241,19 +241,18 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right a{
+.about .about-content .right i{
     display: inline-block;
     background: #c434b8;
     color: #fff;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 500;
-    padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid #c434b8;
     transition: all 0.3s ease;
 }
-.about .about-content .right a:hover{
+.about .about-content .right i:hover{
     color: #c434b8;
     background: none;
 }

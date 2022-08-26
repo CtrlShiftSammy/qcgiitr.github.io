@@ -489,7 +489,7 @@ section{
 }
 
 .about .title{
-    color: #075A19;
+    color: #c434b8;
     /* position: relative; */
     text-align: center;
     font-size: 30px;
@@ -522,18 +522,18 @@ section{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #075A19;
+    background: #c434b8;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #075A19;
+    border: 2px solid #c434b8;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #075A19;
+    color: #c434b8;
     background: none;
 }
 
