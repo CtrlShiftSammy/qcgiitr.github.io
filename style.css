@@ -243,24 +243,27 @@ section .title::after{
 }
 .about .about-content .right i{
     display: inline-block;
-    background: #c434b8;
-    color: #fff;
+    background: #fff;
+    color: #c434b8;
     font-size: 40px;
     font-weight: 500;
     margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #c434b8;
     transition: all 0.3s ease;
 }
 .about .about-content .right i:hover{
     color: #c434b8;
+    font-size: 50px;
     background: none;
 }
 
 /* initiatives section styling */
-.initiatives, .contact{
+.initiatives{
     color:#fff;
     background: #111;
+}
+.contact{
+    color:#111;
+    background: #fff;
 }
 .initiatives .title::before,
 .teams .title::before{
@@ -530,7 +533,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    background: #111;
+    background: #fff;
     content: "get in touch";
 }
 .contact .contact-content .column{
@@ -563,7 +566,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #aaa;
+    color: #222;
 }
 .contact .right form .fields{
     display: flex;
