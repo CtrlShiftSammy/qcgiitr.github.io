@@ -550,6 +550,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .contact .contact-content .left p{
+    padding: 5%;
     text-align: justify;
 }
 .contact .contact-content .left .icons{
@@ -575,6 +576,11 @@ section .title::after{
 }
 .contact .right form .fields{
     display: flex;
+}
+.contact .contact-content .right iframe {
+    width: calc(100% - 30px);
+    padding-left: 2%;
+
 }
 .contact .right form .field,
 .contact .right form .fields .field{
