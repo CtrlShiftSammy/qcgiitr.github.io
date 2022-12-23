@@ -38,6 +38,9 @@ section{
 .teams{
     font-family: 'Poppins', sans-serif;
 }
+.alum{
+    font-family: 'Poppins', sans-serif;
+}
 .about .about-content{
     display: flex;
     flex-wrap: wrap;
@@ -177,6 +180,21 @@ section .title::after{
     color:#fff;
     background: #111;
 }
+.alum{
+    color:#fff;
+    background: #111;
+}
+.alum .title::before{
+    background: #fff;
+}
+.alum .title::after{
+    background: #111;
+    content: "what we organize";
+}
+.alum{
+    color:#fff;
+    background: #111;
+}
 .serv-content .right .html::before{
     width: 90%;
 }
@@ -269,6 +287,83 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel3 .card:hover img{
+    border-color: #fff;
+}
+.alum .title::after{
+    content: "who worked for us";
+}
+.alum .carousel2 .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.alum .carousel2 .card:hover{
+    background: #c434b8;
+}
+.alum .carousel2 .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.alum .carousel2 .card:hover .box{
+    transform: scale(1.05);
+}
+.alum .carousel2 .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.alum .carousel2 .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #c434b8;
+    transition: all 0.3s ease;
+}
+.alum .carousel2 .card:hover img{
+    border-color: #fff;
+}
+.alum .carousel3 .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.alum .carousel3 .card:hover{
+    background: #c434b8;
+}
+.alum .carousel3 .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.alum .carousel3 .card:hover .box{
+    transform: scale(1.05);
+}
+.alum .carousel3 .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.alum .carousel3 .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #c434b8;
+    transition: all 0.3s ease;
+}
+.alum .carousel3 .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
